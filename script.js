@@ -1,6 +1,6 @@
 // Copy IP button
 function copyIP() {
-  const ip = "HerobrineSMPa.aternos.me";
+  const ip = "HerobrineSMPa.aternos.me:60548";
   navigator.clipboard.writeText(ip);
   alert("Copied: " + ip);
 }
@@ -18,7 +18,7 @@ document.addEventListener("mousemove", (e) => {
 // 🔴 LIVE PLAYER COUNT
 async function fetchPlayerCount() {
   try {
-    const res = await fetch("https://api.mcsrvstat.us/2/HerobrineSMPa.aternos.me");
+    const res = await fetch("https://api.mcsrvstat.us/2/HerobrineSMPa.aternos.me:60548");
     const data = await res.json();
 
     if (data.online) {
