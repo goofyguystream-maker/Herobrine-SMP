@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herobrine SMP</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herobrine SMP</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="cursor-glow"></div>
+<!-- Cursor Glow -->
+<div class="cursor-glow"></div>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <h2>Herobrine SMP</h2>
-        <div>
-            <a href="#features">Features</a>
-            <a href="#rules">Rules</a>
-            <a href="#join">Join</a>
-            <a href="https://discord.gg/penDGf5CFt" target="_blank">Discord</a>
-        </div>
-    </nav>
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>Herobrine SMP</h2>
+  <div>
+    <a href="#features">Features</a>
+    <a href="#rules">Rules</a>
+    <a href="#join">Join</a>
+    <a href="https://discord.gg/penDGf5CFt" target="_blank">Discord</a>
+  </div>
+</nav>
 
-    <!-- Hero -->
-    <section class="hero">
-        <h1>Herobrine SMP</h1>
-        <p>Private Survival Server • Friends Only</p>
-        <div class="buttons">
-            <button onclick="copyIP()">Copy IP</button>
-            <a href="https://discord.gg/penDGf5CFt" target="_blank">
-                <button class="discord">Join Discord</button>
-            </a>
-        </div>
-    </section>
+<!-- Hero -->
+<section class="hero">
+  <h1>Herobrine SMP</h1>
+  <p>Private Survival Server • Friends Only</p>
 
-    <!-- Info -->
-    <section class="cards">
-        <div class="card">
-            <h3>IP</h3>
-            <p>HerobrineSMPa.aternos.me</p>
-        </div>
-        <div class="card">
-            <h3>Version</h3>
-            <p>1.21.11</p>
-        </div>
-        <div class="card">
-            <h3>Mode</h3>
-            <p>Survival</p>
-        </div>
-        <div class="card">
-            <h3>Players</h3>
-            <p>Private</p>
-        </div>
-    </section>
+  <div class="buttons">
+    <button onclick="copyIP()">Copy IP</button>
+    <a href="https://discord.gg/penDGf5CFt" target="_blank">
+      <button class="discord">Join Discord</button>
+    </a>
+  </div>
+</section>
 
-    <!-- Features -->
-    <section id="features" class="section">
-        <h2>Features</h2>
-        <div class="grid">
-            <div class="card">Economy & Trading</div>
-            <div class="card">Bases & Factions</div>
-            <div class="card">Farms</div>
-            <div class="card">Wars & Raids</div>
-        </div>
-    </section>
+<!-- Info Cards -->
+<section class="cards">
+  <div class="card">
+    <h3>IP</h3>
+    <p>HerobrineSMPa.aternos.me</p>
+  </div>
 
-    <!-- Rules -->
-    <section id="rules" class="section">
-        <h2>Rules</h2>
-        <ul>
-            <li>No hacks / X-ray</li>
-            <li>PvP allowed</li>
-            <li>No base respect</li>
-        </ul>
-    </section>
+  <div class="card">
+    <h3>Version</h3>
+    <p>1.21.11</p>
+  </div>
 
-    <!-- Join -->
-    <section id="join" class="section">
-        <h2>Join Now</h2>
-        <button onclick="copyIP()">Copy Server IP</button>
-    </section>
+  <div class="card">
+    <h3>Mode</h3>
+    <p>Survival</p>
+  </div>
 
-    <footer>
-        Backups Active • © 2026 Herobrine SMP
-    </footer>
+  <!-- LIVE PLAYER COUNT -->
+  <div class="card">
+    <h3>Players</h3>
+    <p id="playerCount">Loading...</p>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- Features -->
+<section id="features" class="section">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card">Economy & Trading</div>
+    <div class="card">Bases & Factions</div>
+    <div class="card">Farms</div>
+    <div class="card">Wars & Raids</div>
+  </div>
+</section>
+
+<!-- Rules -->
+<section id="rules" class="section">
+  <h2>Rules</h2>
+  <ul>
+    <li>No hacks / X-ray</li>
+    <li>PvP allowed</li>
+    <li>No base respect (raiding allowed)</li>
+  </ul>
+</section>
+
+<!-- Join -->
+<section id="join" class="section">
+  <h2>Join Now</h2>
+  <button onclick="copyIP()">Copy Server IP</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  Backups Active • © 2026 Herobrine SMP
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
